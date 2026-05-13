@@ -1,6 +1,6 @@
 # python-print-Tips
 This repo contains some cool tips on how to make the output of print() command in python more readable.
-## print('{0:n.mf}'.format(...))
+ print('{0:n.mf}'.format(...))
 n defines how many digit spaces to be reserved and the m allocates some of those spaces to the decimal digits. 
 Alignment Result:
    0.000
@@ -16,7 +16,7 @@ Alignment Result:
  936.300
 1029.930
 
-## print("%nd"%...)
+ print("%nd"%...)
 n defines how many digit spaces to be reserved just like above.
 for example:
 print("%3d"%1)
